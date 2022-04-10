@@ -43,13 +43,13 @@ for /f "delims=" %%A in ('2^>nul netsh wlan show profiles') do (
             for /f "tokens=1*delims=:" %%B in ("!current_line!") do (
                 if not "%%C"=="" (
                     set "SSID=%%C"
-                    >nul 2>&1 netsh wlan show profile "!SSID!" key^=clear || (
+                    >nul 2>&1 netsh wlan show profile "!SSID!" key=clear || (
                         if not defined ai_netsh_space (
                             set "ai_netsh_space=!SSID:~0,1!"
                         )
                         set "SSID=!SSID:~1!"
                         if defined SSID (
-                            >nul 2>&1 netsh wlan show profile "!SSID!" key^=clear || (
+                            >nul 2>&1 netsh wlan show profile "!SSID!" key=clear || (
                                 set SSID=
                             )
                         )
