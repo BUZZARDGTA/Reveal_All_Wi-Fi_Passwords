@@ -6,7 +6,7 @@
 
 ## Showcase
 
-![cmd_2022-04-10_17-43](https://user-images.githubusercontent.com/62464560/162627585-2404cf98-26ec-424c-9767-a4428bea42be.png)
+![cmd_2022-04-10_17-46](https://user-images.githubusercontent.com/62464560/162627740-26445fc5-9c70-4263-a86a-768d65193a05.png)
 
 ## Credits
 
