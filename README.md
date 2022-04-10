@@ -10,7 +10,7 @@
 
 ## Credits
 
-[@Grub4K](https://github.com/Grub4K) - Parsing algorithm improvement idea.
-[@Agam](https://github.com/agamsol) - Testing the script on a different computer language region.
+[@Grub4K](https://github.com/Grub4K) - Parsing algorithm improvement idea.<br />
+[@Agam](https://github.com/agamsol) - Testing the script on a different computer language region.<br />
 
 A project created in the [server.bat](https://discord.gg/GSVrHag) Discord server.
